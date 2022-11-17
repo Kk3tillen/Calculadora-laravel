@@ -21,4 +21,4 @@ Route::get('/', function () {
 Route::get('/soma/{n1}/{n2}', [OperationController::class, 'sum']);
 Route::get('/dividir/{n1}/{n2}', [OperationController::class, 'div']);
 Route::get('/multiplicar/{n1}/{n2}', [OperationController::class, 'mult']);
-Route::get('/subtair/{n1}/{n2}', [OperationController::class, 'sub']);
+Route::get('/subitrair/{n1}/{n2}', [OperationController::class, 'sub']);
